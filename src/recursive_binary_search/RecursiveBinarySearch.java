@@ -9,7 +9,7 @@ public class RecursiveBinarySearch {
                 return left;
             }else {
                 return -1;
-            }
+            }               
         }
         int mid = (right - left)/2 + left;
         if (list[mid] < key){
